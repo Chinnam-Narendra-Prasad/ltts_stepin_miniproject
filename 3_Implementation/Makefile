@@ -1,17 +1,19 @@
-PROJECT_NAME = Bank
-SRC = src/PrintDetails.c \
-src/RegisterAccount.c \
-src/SearchAccount.c \
-src/SortAccount.c \
-src/Transaction.c \
-src/WriteFile.c \
-src/menu.c
+	
+PROJ_NAME = bank_proj
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
+SRC =src/Functions.c
+
+
+Bank_SRC = test.c
+
+TEST_SRC = test/test.c \
+unity/unity.c 
 INC_H = inc
+INC_T = unity
 
-#To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
-   RM = del /q
+   RM = del 
    FixPath = $(subst /,\,$1)
    EXEC = exe
 else
@@ -21,15 +23,38 @@ else
 	  EXEC = out
    endif
 endif
+.PHONY: run clean test doc all
 
-$(PROJECT_NAME).exe : $(SRC) main.c
-	gcc -I $(INC_H) $(SRC) main.c -o $(PROJECT_NAME).exe
+all:
+	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+	
+run:
+	$(call FixPath,$(PROJ_NAME).$(EXEC))
+test:
+	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
 
-run :
-	$(PROJECT_NAME).exe
+coverage:
+	cp test/test.c .
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
+	gcov -a $(Bank_SRC)
+	$(RM) *.$(EXEC)
+	
+	
+	$(RM) test.c
 
-DOCUMENTATION_OUTPUT = documentation/html
 
-# Document the code using Doxygen
-doc:
-	make -C ./documentation
+cppcheck:
+	cppcheck --enable=all $(SRC) main.c
+debug:
+	gcc -I $(INC_H) $(SRC) main.c -g -o $(PROJ_NAME).$(EXEC)
+	gdb $(PROJ_NAME).$(EXEC)
+
+valgrind:
+	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
+
+
+clean:
+	
+	$(RM) *.$(EXEC)
