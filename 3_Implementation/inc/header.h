@@ -1,28 +1,22 @@
-#ifndef __HEADER_BANK__
-#define __HEADER_BANK__
-typedef struct AccountInfo
+#ifndef BANK_H
+#define BANK_H
+struct date
 {
-    char name[60];
+	
+    int month,day,year;
+};
+ struct customer
+{
     int account_no;
-    int age;
-    char city[20];
-    int phone;
-    char account_type[15];
-    float balance;
-}AccountInfo;
+    char name[80];
+    int balance;
+	//struct date dob;
+} ;
+void account(struct customer[], int);
+void display(struct customer[], int);
+int search(struct customer[], int, int);
+void deposit(struct customer[], int, int, int);
+void withdraw(struct customer[], int, int, int);
+int check(char *pass,char *password);
 
-typedef enum error_t
-{
-    ERROR_NULL_PTR = 0,    /**< Null pointer dereferncing error */
-    SUCCESS = 1,             /**< Compute operation is successful */
-    ERROR_MEMORY_FULL = -1   /**< Memory full error */
-}error_t;
-
-void menu(AccountInfo *account, int *numberOfAccounts, char *filename);
-void register_account(AccountInfo *acc, int *numberOfAccounts);
-void print_account_details(AccountInfo *acc, int *numberOfAccounts);
-int search_account_details(AccountInfo *account, int *numberOfAccounts);
-void change_account_balance(AccountInfo *account, int *numberOfAccounts);
-void sort_account(AccountInfo *account, int *numberOfAccounts);
-void write_account_to_file(AccountInfo *account, int *numberOfAccounts, char *filename);
-#endif
+#endif 
