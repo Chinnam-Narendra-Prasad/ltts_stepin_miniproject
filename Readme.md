@@ -8,7 +8,7 @@ source- google
 
 [![Code Quality - Static Code - Cppcheck](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/cppcheck.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/cppcheck.yml)
 
-[![Unit Testing - Unity](https://github.com/keshavamurthy5/Mini_Project/actions/workflows/unity.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/unity.yml)
+[![Unit Testing - Unity](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/unity.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/unity.yml)
 
 [![Contribution Check - Git Inspector](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/gitinspector.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/gitinspector.yml)
 
