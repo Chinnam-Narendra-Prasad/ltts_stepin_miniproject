@@ -1,7 +1,7 @@
 # Design
 
 ## High Level Design
-architecture design
+
 ![image](https://user-images.githubusercontent.com/80376117/114819247-cd6f8000-9dda-11eb-8ed9-629b3d3739c9.png)
 
 
