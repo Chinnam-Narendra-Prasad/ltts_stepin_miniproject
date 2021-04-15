@@ -12,9 +12,6 @@ source- google
 
 [![Contribution Check - Git Inspector](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/gitinspector.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/gitinspector.yml)
 
-[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/dynamic_code_quality.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/dynamic_code_quality.yml)
-
-[![CI-Coverage](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/code_coverage.yml/badge.svg)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/code_coverage.yml)
 
 
 
