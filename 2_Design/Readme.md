@@ -1,12 +1,11 @@
 # Design
 
-## High Level Design 
+## High Level Design
+architecture design
+![image](https://user-images.githubusercontent.com/80376117/114819247-cd6f8000-9dda-11eb-8ed9-629b3d3739c9.png)
+
+
 ### Use Case Diagram
-![Use case diagram](https://github.com/256018/MiniProject_C/blob/master/2_Design/Use%20Case1.png)
-
-![Use case diagram](https://github.com/256018/MiniProject_C/blob/master/2_Design/Use%20Case2.png)
-
+![image](https://user-images.githubusercontent.com/80376117/114819317-ec6e1200-9dda-11eb-9bd9-c3577fe1dbdf.png)
 
 ## Low Level Design 
-![Class Diagram](https://github.com/256018/MiniProject_C/blob/master/2_Design/class-diagram.png)
-![Activity Diagram](https://github.com/256018/MiniProject_C/blob/master/2_Design/activity-diagram.png)
