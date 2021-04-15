@@ -64,4 +64,3 @@ int main()
     menu(account, &numberOfAccounts, filename);
     return 0;
 }
-© 2021 GitHub, Inc.
