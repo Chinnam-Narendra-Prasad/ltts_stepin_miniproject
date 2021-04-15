@@ -2,46 +2,25 @@
 ![image](https://user-images.githubusercontent.com/80376117/114763917-f82cea80-9d80-11eb-91ed-a3cc60741533.png)
 source- google
 
+# Bank Management System
+ 
+[![C/C++ CI - Build Status](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/c-cpp.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/c-cpp.yml)
+
+[![Code Quality - Static Code - Cppcheck](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/cppcheck.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/cppcheck.yml)
+
+[![Unit Testing - Unity](https://github.com/keshavamurthy5/Mini_Project/actions/workflows/unity.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/unity.yml)
+
+[![Contribution Check - Git Inspector](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/gitinspector.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/gitinspector.yml)
+
+[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/dynamic_code_quality.yml/badge.svg?branch=main)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/dynamic_code_quality.yml)
+
+[![CI-Coverage](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/code_coverage.yml/badge.svg)](https://github.com/keshavamurthy5/ltts_stepin_miniproject/actions/workflows/code_coverage.yml)
+
+<p align="justify"> It is a console application, where bank employees can login with  credentials and add details of the customer.Withdraw and deposit of the cash can be done as per the customer requirement and Account balance will be reflected accordingly.Employee can view details of all the customers and can search for the required details.</p>
 
 
 
 
 
 
-
-Visit [Pages for Report -optional](using github.io option)
-
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
-[![C/C++ CI](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/cppcheck.yml) [![Dynamic Valgrind](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml)| [![Unity - Unit Testing](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/unity.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/gitinspector.yml)
-
-
-
-## Folder Structure
-Folder             | Description
--------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements and research
-`2_Design`         | Documents specifying design details
-`3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
-
-## Contributors List and Summary
-
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
-
-## Challenges Faced and How Was It Overcome
-
-1. ABC
-2. BCD
-3. ...
-4. ...
-
-## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
 
